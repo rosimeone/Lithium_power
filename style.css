@@ -2,19 +2,19 @@ html,
 body {
   margin: 0;
   padding: 0;
+  
 }
-
 body {
-  background: #000;
-  color: white;
+  background:#EF233C ;
+  color:#2B2D42;
   position: relative;
   font-family: 'Ubuntu Mono',
     monospace;
 }
 
 a {
-  color: #019cdc;
-  font-size: 12px;
+  color: #EDF2F4;
+  font-size: 14px;
   display: block;
 }
 
@@ -22,13 +22,14 @@ a {
  of links when you "mouseover" */
 a:hover,
 a:visited:hover {
-  color: #7ac043;
+  color: Blue
+   ;
 }
 
 /* ":visited" will effect the color
  of links you have previously clicked on */
 a:visited {
-  color: #f58428;
+  color: white;
 }
 
 .link-heading {
@@ -37,11 +38,11 @@ a:visited {
 }
 
 .square-one .inner {
-  background: #f58428;
+  background: #F0F3BD;
 }
 
 .square-two .inner {
-  background: #7ac043;
+  background: rgb(0,0,0);
 }
 
 .square-three .inner {
@@ -50,7 +51,7 @@ a:visited {
 
 .outer {
   box-sizing: border-box;
-  padding: 40px;
+  padding: 50px;
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
@@ -64,7 +65,7 @@ a:visited {
 }
 
 .left {
-  flex-grow: 1;
+  flex-grow: 2;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
@@ -91,11 +92,11 @@ a:visited {
 .square {
   position: absolute;
   display: flex;
-  height: 240px;
-  width: 240px;
-  transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
+  height: 300px;
+  width: 300px;
+  transition: all 0.9s ease-out;
+  -webkit-transition: all 0.9s ease-out;
+  -moz-transition: all 0.9s ease-out;
 }
 
 .wrap:hover .square-one {
